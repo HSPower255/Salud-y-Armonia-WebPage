@@ -120,7 +120,7 @@ const Treatments = () => {
                 </button>
                 <button>
                     <Link href={'/components/Contact'}>
-                        ¿Alguna duda? ¡Cunsulta aquí!
+                        ¿Alguna duda? ¡Consulta aquí!
                     </Link>
                 </button>
             </div>
