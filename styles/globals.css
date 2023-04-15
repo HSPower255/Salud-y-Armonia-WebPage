@@ -1,0 +1,16 @@
+html {
+  padding-top: 155px;
+  padding-bottom: 800px;
+  overflow-x: hidden;
+  position: relative;
+  min-height: 100%;
+  margin: 0;
+  background-image: url('/bg.png');
+  background-size:cover; 
+  background-repeat: no-repeat;
+}
+
+body {
+  min-height: 100%;
+  margin: 0;
+}

@@ -1,0 +1,103 @@
+.formContainer {
+    font-family: Helvetica Neue, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.block {
+    display: flex;
+    flex-direction: column;
+}
+
+.name {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.container {
+    font-size: 1.3rem;
+    border-radius: 10px;
+    width: 30%;
+    padding: 50px;
+}
+
+.container input {
+    font-size: 1.2rem;
+    margin: 10px 0px 25px 0px;
+    border: solid 2px black;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #e8f0fe;
+}
+
+.container textarea {
+    margin: 10px 0px 10px 0px;
+    padding: 5px;
+    border: solid 2px black;
+    border-radius: 5px;
+    background-color: #e8f0fe;
+    font-size: 20px;
+    resize: none;
+}
+
+.container textarea::placeholder{
+    opacity: 0.6;
+    font-size: 15px;
+}
+
+.name div {
+    display: flex;
+    flex-direction: column;
+}
+
+.blockBttn {
+    padding-top: 10px;
+    padding-left: 225px
+}
+
+.blockBttn button {
+    padding: 10px;
+    font-size: 20px;
+    width: 30%;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    transition: background-color 1s ease 0s;
+}
+
+.blockBttn button:hover {
+    border-radius: 10px;
+    background-color: #c1bfbf;
+}
+
+.title h1{
+    font-family: 'Dancing Script', cursive;
+    font-weight: bolder;
+    font-size: 80px;
+    text-align: center;
+    letter-spacing: 5px;
+    text-shadow: 1px 1px 1px grey, 2px 2px 1px grey;
+    margin-top: -5px;
+    margin-bottom: 70px;
+}
+
+.title h3 {
+    font-weight: bolder;
+    font-size: 20px;
+    text-align: center;
+    margin-top: -40px;
+    margin-bottom: 0px;
+}
+
+.contactContent img {
+    margin-right: 10px;
+}
+
+.contactContent {
+    display: flex;
+    flex-direction: column;
+    margin-top: 125px;
+    margin-bottom: -100px;
+}
+

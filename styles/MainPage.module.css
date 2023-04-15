@@ -1,0 +1,134 @@
+.mainPageContainer {
+    display: flex;
+    flex-direction: row;
+    padding-left: 100px;
+    padding-right: 100px;
+    min-height: 100vh;
+    margin-bottom: -100px;
+}
+
+.mainPageContainer img {
+    border: 5px outset black;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 1);
+}
+
+.mainTextContainer {
+    padding-left: 170px;
+    padding-right: 100px;
+    text-align: right;
+}
+
+.mainTextContainer p {
+    font-family: 'Kalam', cursive;
+    font-size: 40px;
+    text-align: center;
+    line-height: 70px;
+}
+
+.mainTextContainer h1 {
+    font-family: 'Dancing Script', cursive;
+    font-weight: bolder;
+    font-size: 100px;
+    text-align: center;
+    margin: 0;
+    letter-spacing: 5px;
+    text-shadow: 1px 1px 1px grey, 2px 2px 1px grey;
+}
+
+.mainTextContainer h3 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 30px;
+    text-align: center;
+    margin: 0;
+}
+
+.mainTextContainer a {
+    font-size: 25px;
+    text-decoration: none;
+    color: #03045e;
+    font-weight: bolder;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.mainTextContainer a:hover {
+    color: #003566;
+    transition: color 0.2s ease-in-out;
+}
+
+.hr {
+    border: 4px solid #e3b68f;
+}
+
+.tratamientosMain {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-left: 350px;
+    padding-right: 240px;
+}
+
+.tratamientosMain img {
+    border: solid 3px transparent;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 1);
+    transition: opacity 0.5s ease 0s;
+}
+
+.tratamientosElement {
+    display: flex;
+    flex-direction: column;
+    padding-right: 100px;
+}
+
+.tratamientosElement button {
+    position: absolute;
+    margin-left: -420px;
+    margin-top: 290px;
+    border: solid 3px transparent;
+    padding: 10px;
+    font-size: 15px;
+    color: green;
+    font-weight: bolder;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 1);
+    cursor: pointer;
+}
+
+.tratamientosMain img:hover {
+    border-color: black;
+    opacity: 0.7;
+}
+
+.mainServices h2 {
+    font-family: 'Dancing Script', cursive;
+    font-weight: bolder;
+    font-size: 80px;
+    text-align: center;
+    letter-spacing: 5px;
+    text-shadow: 1px 1px 1px grey, 2px 2px 1px grey;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+
+.mainServices h3 {
+    font-family: "Open Sans";
+    margin-bottom: -10px;
+    font-size: 20px;
+}
+
+.mainServices p {
+    text-align: justify;
+    font-family: "Open Sans";
+}
+
+.mainServices a {
+    margin-top: 50px;
+    font-size: 25px;
+    text-decoration: none;
+    color: #03045e;
+    font-weight: bolder;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.mainServices a:hover {
+    color: #003566;
+    transition: color 0.2s ease-in-out;
+}

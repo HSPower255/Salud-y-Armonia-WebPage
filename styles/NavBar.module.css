@@ -1,0 +1,46 @@
+.navbar {
+    display: flex;
+    justify-content: center;
+    gap: 45px;
+    align-items: center;
+    padding: 10px;
+    width: 100%;
+    margin: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.7);
+    background-color: #f2e8df;
+  }
+  
+.navLinks {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+  
+.navLinks li {
+    margin-left: 35px;
+}
+  
+.link {
+    color: #482b32;
+    font-size: 25px;
+    font-weight: bold;
+    transition: color 0.2s ease-in-out;
+    text-decoration: none;
+}
+  
+.link:hover {
+    color: #6f4a52;
+    text-decoration: underline;
+}
+
+.name {
+    font-family: 'Dancing Script', cursive;
+    font-weight: bolder;
+    font-size: larger;
+    text-align: center;
+    margin: 0;
+}
