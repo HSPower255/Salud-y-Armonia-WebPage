@@ -19,10 +19,10 @@ export default function RootLayout({ children }) {
         href="https://fonts.googleapis.com/css2?family=Kalam&display=swap"
         rel='stylesheet'
         />
-        <link>
+        <link
         href="https://fonts.googleapis.com/css2?family=Raleway&display=swap');"
         rel='stylesheet'
-        <link/>
+        />
       </head>
       <body>
         <NavBar />
