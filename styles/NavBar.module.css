@@ -1,47 +1,48 @@
 .navbar {
     display: flex;
     justify-content: center;
-    gap: 45px;
+    gap: 2.8125rem;
     align-items: center;
-    padding: 10px;
+    padding: 0.625rem;
     width: 100%;
     margin: 0;
     position: absolute;
     top: 0;
     left: 0;
-    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.7);
+    box-shadow: 0px 0.125rem 0.3125rem rgba(0, 0, 0, 0.7);
     background-color: #f2e8df;
   }
   
-.navLinks {
+  .navLinks {
     display: flex;
     list-style: none;
     margin: 0;
     padding: 0;
-}
+  }
   
-.navLinks li {
-    margin-left: 35px;
-}
+  .navLinks li {
+    margin-left: 2.1875rem;
+  }
   
-.link {
+  .link {
+    font-family: 'Raleway', sans-serif;
     color: #482b32;
-    font-size: 25px;
+    font-size: 1.5625rem;
     font-weight: bold;
     transition: color 0.2s ease-in-out;
     text-decoration: none;
-    font-family: 'Raleway', sans-serif;
-}
+  }
   
-.link:hover {
+  .link:hover {
     color: #6f4a52;
     text-decoration: underline;
-}
-
-.name {
+  }
+  
+  .name {
     font-family: 'Dancing Script', cursive;
     font-weight: bolder;
     font-size: larger;
     text-align: center;
     margin: 0;
-}
+  }
+  

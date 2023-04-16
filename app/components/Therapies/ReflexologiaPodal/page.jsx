@@ -54,9 +54,15 @@ const ReflexologiaPodal = () => {
                         width={400}
                         height={350}
                     />
+                     <Image
+                        src="/reflexologia-podal3.png"
+                        alt="Reflexología Podal"
+                        width={400}
+                        height={350}
+                    />
                 </div>
             </section>
-            <div className={styles.botones}>
+            <div className={styles.bttns}>
                 <button>
                     <Link href={'/components/Appointments'}>
                         ¿Interesado? ¡Agenda tu cita!

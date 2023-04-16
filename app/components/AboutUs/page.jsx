@@ -20,7 +20,7 @@ const AboutUs = () => {
                     <p>Si estás buscando un masaje personalizado y de alta calidad, ¡no dudes en programar una cita conmigo! Estoy segura de que te encantará la experiencia que te ofreceré.</p>
                 </div>
                 <div className={styles.mapContainer}>
-                    <iframe width="350" height="450" src="https://maps.google.com/maps?width=550&amp;height=300&amp;hl=en&amp;q=Eduardo%20Rivero%20631%20Omb%C3%BAes%20de%20Lavalle+(Consultorio)&amp;t=&amp;z=17&amp;ie=UTF8&amp;iwloc=B&amp;output=embed" />
+                    <iframe width="350" height="515" src="https://maps.google.com/maps?width=550&amp;height=300&amp;hl=en&amp;q=Eduardo%20Rivero%20631%20Omb%C3%BAes%20de%20Lavalle+(Consultorio)&amp;t=&amp;z=17&amp;ie=UTF8&amp;iwloc=B&amp;output=embed" />
                 </div>
             </section >
             <section className={styles.imgContainer}>
@@ -34,7 +34,7 @@ const AboutUs = () => {
                 </div>
             </section>
             <section>
-                <div className={styles.bttnContainer}>
+                <div className={styles.bttns}>
                     <button>
                         <Link href={'/components/Appointments'}>
                             ¡Agenda una cita!

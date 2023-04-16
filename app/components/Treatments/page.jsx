@@ -6,7 +6,7 @@ const Treatments = () => {
     return (
         <>
             <section className={styles.mainServices}>
-                <h2>Tratamientos</h2>
+                <h1>Tratamientos</h1>
                 <div className={styles.treatmentsMain}>
                     <div className={styles.treatmentsElement}>
                         <Link href="/components/Therapies/Quiropraxia">
@@ -120,7 +120,7 @@ const Treatments = () => {
                 </button>
                 <button>
                     <Link href={'/components/Contact'}>
-                        ¿Alguna duda? ¡Consulta aquí!
+                        ¿Alguna duda? ¡Cunsulta aquí!
                     </Link>
                 </button>
             </div>

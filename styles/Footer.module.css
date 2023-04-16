@@ -26,12 +26,12 @@
 
 .footerTitle {
   font-family: 'Gill Sans', serif;
-  font-size: 22px;
-  padding-bottom: 10px;
+  font-size: 1.375rem;
+  padding-bottom: 0.625rem;
 }
 
 .footerMain {
-  padding: 20px 30px;
+  padding: 1.25rem 1.875rem;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
@@ -39,57 +39,57 @@
 }
 
 .footerMainItem {
-  min-width: 200px;
+  min-width: 12.5rem;
 }
 
 .logo {
-  margin: 50px;
+  margin: 3.125rem;
   margin-bottom: 0px;
 }
 
 .description {
   font-family: 'Dancing Script', cursive;
   font-weight: bolder;
-  font-size: larger;
+  font-size: 1.25rem;
   text-align: center;
   margin: 0;
 }
 
 /* SOCIAL */
 .footerSocial {
-  padding: 15px 30px 20px;
+  padding: 0.938rem 1.875rem 1.25rem;
 }
 
 .footerSocialList {
   display: flex;
   justify-content: center;
-  border-top: 1px #777 solid;
-  padding-top: 20px;
+  border-top: 0.063rem #777 solid;
+  padding-top: 1.25rem;
 }
 
 .footerSocialList li {
-  margin: 10px;
-  margin-bottom: -10px;
+  margin: 0.625rem;
+  margin-bottom: -0.625rem;
 }
 
 /* POLICY*/
 .footerPolicy {
-  padding: 15px 30px;
+  padding: 0.938rem 1.875rem;
   background-color: #333;
 }
 
 .footerPolicy img {
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-top: 0.625rem;
+  padding-bottom: 0.625rem;
 }
+
 .footerPolicy a {
   display: flex;
   align-items: center;
-  gap: 20px;
+  gap: 1.25rem;
 }
 
 /* MAP */
 .footerMainItem iframe {
-  border: 3px solid black;
-  padding: 0px;
+  border: 0.188rem solid black;
 }

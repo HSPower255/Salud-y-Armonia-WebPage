@@ -1,49 +1,49 @@
 .mainPageContainer {
     display: flex;
     flex-direction: row;
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-left: 10rem;
+    padding-right: 10rem;
     min-height: 100vh;
-    margin-bottom: -100px;
+    margin-bottom: -10rem;
 }
 
 .mainPageContainer img {
-    border: 5px outset black;
-    box-shadow: 0px 2px 5px rgba(0, 0, 0, 1);
+    border: 0.5rem outset black;
+    box-shadow: 0 0.2rem 0.5rem rgba(0, 0, 0, 1);
 }
 
 .mainTextContainer {
-    padding-left: 170px;
-    padding-right: 100px;
+    padding-top: 4rem;
+    padding-left: 14rem;
     text-align: right;
 }
 
 .mainTextContainer p {
     font-family: 'Kalam', cursive;
-    font-size: 40px;
+    font-size: 2rem;
     text-align: center;
-    line-height: 70px;
+    line-height: 4rem;
 }
 
 .mainTextContainer h1 {
     font-family: 'Dancing Script', cursive;
     font-weight: bolder;
-    font-size: 100px;
+    font-size: 6rem;
     text-align: center;
     margin: 0;
-    letter-spacing: 5px;
-    text-shadow: 1px 1px 1px grey, 2px 2px 1px grey;
+    letter-spacing: 0.5rem;
+    text-shadow: 0.1rem 0.1rem 0.1rem grey, 0.2rem 0.2rem 0.1rem grey;
 }
 
 .mainTextContainer h3 {
     font-family: 'Dancing Script', cursive;
-    font-size: 30px;
+    font-size: 2rem;
     text-align: center;
     margin: 0;
 }
 
 .mainTextContainer a {
-    font-size: 25px;
+    font-size: 1.5625rem;
     text-decoration: none;
     color: #03045e;
     font-weight: bolder;
@@ -56,40 +56,42 @@
 }
 
 .hr {
-    border: 4px solid #e3b68f;
+    border: 0.4rem solid #e3b68f;
 }
 
+/* Estilos para tratamientosMain */
 .tratamientosMain {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    padding-left: 350px;
-    padding-right: 240px;
+    padding-left: 35rem;
+    padding-right: 24rem;
 }
 
 .tratamientosMain img {
-    border: solid 3px transparent;
-    box-shadow: 0px 2px 5px rgba(0, 0, 0, 1);
+    border: 0.3rem solid transparent;
+    box-shadow: 0 0.2rem 0.5rem rgba(0, 0, 0, 1);
     transition: opacity 0.5s ease 0s;
 }
 
 .tratamientosElement {
     display: flex;
     flex-direction: column;
-    padding-right: 100px;
+    padding-right: 10rem;
 }
 
 .tratamientosElement button {
     position: absolute;
-    margin-left: -420px;
-    margin-top: 290px;
-    border: solid 3px transparent;
-    padding: 10px;
-    font-size: 15px;
+    margin-left: -26.5rem;
+    margin-top: 18rem;
+    border: 0.3rem solid transparent;
+    padding: 0.5rem;
+    font-size: 1.5rem;
     color: green;
     font-weight: bolder;
-    box-shadow: 0px 2px 5px rgba(0, 0, 0, 1);
+    box-shadow: 0 0.2rem 0.5rem rgba(0, 0, 0, 1);
     cursor: pointer;
+    font-size: 0.9375rem;
 }
 
 .tratamientosMain img:hover {
@@ -100,28 +102,29 @@
 .mainServices h2 {
     font-family: 'Dancing Script', cursive;
     font-weight: bolder;
-    font-size: 80px;
+    font-size: 5rem;
     text-align: center;
-    letter-spacing: 5px;
-    text-shadow: 1px 1px 1px grey, 2px 2px 1px grey;
-    margin-top: 50px;
-    margin-bottom: 10px;
+    letter-spacing: 0.3rem;
+    text-shadow: 0.05rem 0.05rem 0.05rem grey, 0.1rem 0.1rem 0.05rem grey;
+    margin-top: 3.125rem;
+    margin-bottom: 0.625rem;
 }
 
 .mainServices h3 {
-    font-family: "Open Sans";
-    margin-bottom: -10px;
-    font-size: 20px;
+    font-family: 'Fjalla One', sans-serif;
+    margin-bottom: -0.625rem;
+    font-size: 1.5625rem;
 }
 
 .mainServices p {
     text-align: justify;
-    font-family: "Open Sans";
+    font-family: 'Crimson Text', serif;
+    font-size: 1.5rem;
 }
 
 .mainServices a {
-    margin-top: 50px;
-    font-size: 25px;
+    margin-top: 3.75rem;
+    font-size: 1.5625rem;
     text-decoration: none;
     color: #03045e;
     font-weight: bolder;

@@ -50,9 +50,15 @@ const PiedrasCalientes = () => {
                         width={400}
                         height={350}
                     />
+                    <Image
+                        src="/piedras-calientes3.png"
+                        alt="Piedras Calientes"
+                        width={400}
+                        height={350}
+                    />
                 </div>
             </section>
-            <div className={styles.botones}>
+            <div className={styles.bttns}>
                 <button>
                     <Link href={'/components/Appointments'}>
                         ¿Interesado? ¡Agenda tu cita!

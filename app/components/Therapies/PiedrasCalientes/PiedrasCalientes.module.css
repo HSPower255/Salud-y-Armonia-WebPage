@@ -1,69 +1,72 @@
 .container {
     display: flex;
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-left: 6.25rem;
+    padding-right: 6.25rem;
 }
 
 .container h1 {
     font-family: 'Dancing Script', cursive;
     font-weight: bolder;
-    font-size: 80px;
+    font-size: 5rem;
     text-align: center;
-    letter-spacing: 5px;
-    text-shadow: 1px 1px 1px grey, 2px 2px 1px grey;
-    margin-top: -5px;
-    margin-bottom: 70px;
+    letter-spacing: 0.3125rem;
+    text-shadow: 0.0625rem 0.0625rem 0.0625rem grey, 0.125rem 0.125rem 0.0625rem grey;
+    margin-top: -0.3125rem;
+    margin-bottom: 4.375rem;
 }
 
 .container h2 {
-    margin-top: 50px;
+    font-family: 'Fjalla One', sans-serif;
+    margin-top: 3.125rem;
 }
 
 .container p {
-    text-align: justify;
-    font-family: "Open Sans";
+    font-family: 'Crimson Text', serif;
+    font-size: 1.5rem;
 }
 
 .container ul {
     text-align: justify;
-    font-family: "Open Sans";
+    font-family: 'Crimson Text', serif;
+    font-size: 1.5rem;
     list-style: circle;
     padding-left: 0;
 }
 
 .container li {
-    margin: 10px;
+    margin: 0.625rem;
 }
 
 .imgContainer {
     display: flex;
     flex-direction: column;
-    margin-top: 70px;
-    border: solid 3px black;
-    margin-left: 100px;
+    margin-top: 4.375rem;
+    border: solid 0.1875rem black;
+    margin-left: 6.25rem;
 }
 
-.botones {
+/* Buttons Styles */
+.bttns {
     display: flex;
     justify-content: space-evenly;
-    margin-top: 200px;
-
+    margin-top: 12.5rem;
 }
 
-.botones button {
-    border-radius: 10px;
+.bttns button {
+    border-radius: 0.625rem;
+    border: 0.25rem solid black;
     transition: background-color 1s ease 0s;
-    padding: 10px;
-    background-color: transparent;
-}
-
-.botones button:hover {
-    border-radius: 10px;
+    padding: 0.625rem;
     background-color: #eee4e1;
 }
 
-.botones a {
-    font-size: 25px;
+.bttns button:hover {
+    border-radius: 0.625rem;
+    background-color: whitesmoke;
+}
+
+.bttns a {
+    font-size: 1.5625rem;
     text-decoration: none;
     color: black;
     font-weight: bolder;

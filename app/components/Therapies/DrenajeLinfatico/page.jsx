@@ -58,6 +58,12 @@ const DrenajeLinfatico = () => {
                         width={400}
                         height={350}
                     />
+                    <Image
+                        src="/drenaje-linfatico3.png"
+                        alt="Drenaje Linfático"
+                        width={400}
+                        height={350}
+                    />
                 </div>
             </section>
             <div className={styles.bttns}>
